@@ -1,4 +1,4 @@
-const swap = (array, firstIndex, secondIndex) {
+const swap = (array, firstIndex, secondIndex) => {
   const firstValue = array[firstIndex];
   array[firstIndex] = array[secondIndex];
   array[secondIndex] = firstValue;
