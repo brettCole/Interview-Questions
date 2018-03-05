@@ -6,3 +6,9 @@ function addToCart(cart, item) {
 
 // ES6 function add to Array
 const addToCart = (cart, item) => [...cart, item];
+
+// reverse string
+function reverseStr(str) {
+  str = str.split(' ').reverse().join(' ');
+  return str;
+}
